@@ -1,0 +1,22 @@
+{
+  "name": "meu-template",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "typeorm": "^0.3.6",
+    "mysql2": "^3.3.0",
+    "reflect-metadata": "^0.1.13",
+    "glob": "^10.3.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5",
+    "ts-node": "^10.4.0"
+  },
+  "type": "module"
+}
+
